@@ -70,6 +70,7 @@ VALUES
 ```
 
 7. Ejecutar el proyecto `dotnet run` o desde Visual Studio.
+8. La documentación de la API está disponible en `http://localhost:5081/swagger/index.html` (por defecto).
 
 ## Proyecto-2 (Frontend):
 1. Abrir la carpeta Proyecto-2 en Visual Studio Code o cualquier otro.
