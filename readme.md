@@ -6,12 +6,12 @@
 3. La carpeta Proyecto-2 corresponde al frontend realizado con React.
 
 ## Proyecto-1 (Backend):
-1. Abrir la solución en Visual Studio.
-2. Restaurar los paquetes NuGet `dotnet restore`.
+1. Abrir la solución en Visual Studio 2022.
+2. Restaurar los paquetes NuGet `dotnet restore` o desde Visual Studio.
 3. Si es necesario, editar archivo appsettings.json para configurar la cadena de conexión a la base de datos. (Por defecto, utiliza una base de datos LocalDB).
 4. Ejecutar migración de la base de datos `dotnet ef database update`.
 5. Ejecutar el proyecto `dotnet run` o desde Visual Studio.
-6. Para rellenar la base datos, pegar las siguientes sentencias SQL en el explorador de objetos de SQL Server:
+6. Para rellenar la base datos, pegar las siguientes sentencias SQL en el explorador de objetos de SQL Server en la base de datos UnitsDb:
 ```sql
 INSERT INTO Units (Number, Address, Orientation, Bedrooms, Bathrooms, Model, RentPrice, CommonExpense)
 VALUES 
@@ -72,7 +72,7 @@ VALUES
 ## Proyecto-2 (Frontend):
 1. Abrir la carpeta Proyecto-2 en Visual Studio Code o cualquier otro.
 2. Instalar las dependencias con `npm install`.
-3. Para la conexión al backend, editar el archivo .env y configurar la URL del backend. Por defecto es http://localhost:5081.
+3. Para la conexión al backend, editar el archivo .env y configurar la URL del backend. Por defecto es http://localhost:5081/api
 4. Correr el proyecto con `npm run dev`.
 5. Breve resumen de carpetas:
 - **components**: Contiene los componentes reutilizables de la aplicación.
