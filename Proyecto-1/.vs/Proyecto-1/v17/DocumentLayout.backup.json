@@ -3,28 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\uriel\\OneDrive\\Desktop\\Prueba-Euro\\Proyecto-1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A1EDF617-3599-42EC-9364-16CDE8190C60}|Proyecto-1.csproj|c:\\users\\uriel\\onedrive\\desktop\\prueba-euro\\proyecto-1\\services\\ownerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A1EDF617-3599-42EC-9364-16CDE8190C60}|Proyecto-1.csproj|solutionrelative:services\\ownerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A1EDF617-3599-42EC-9364-16CDE8190C60}|Proyecto-1.csproj|c:\\users\\uriel\\onedrive\\desktop\\prueba-euro\\proyecto-1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A1EDF617-3599-42EC-9364-16CDE8190C60}|Proyecto-1.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A1EDF617-3599-42EC-9364-16CDE8190C60}|Proyecto-1.csproj|c:\\users\\uriel\\onedrive\\desktop\\prueba-euro\\proyecto-1\\services\\unitservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A1EDF617-3599-42EC-9364-16CDE8190C60}|Proyecto-1.csproj|solutionrelative:services\\unitservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A1EDF617-3599-42EC-9364-16CDE8190C60}|Proyecto-1.csproj|c:\\users\\uriel\\onedrive\\desktop\\prueba-euro\\proyecto-1\\dtos\\unitdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A1EDF617-3599-42EC-9364-16CDE8190C60}|Proyecto-1.csproj|solutionrelative:dtos\\unitdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A1EDF617-3599-42EC-9364-16CDE8190C60}|Proyecto-1.csproj|c:\\users\\uriel\\onedrive\\desktop\\prueba-euro\\proyecto-1\\dtos\\createunitdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A1EDF617-3599-42EC-9364-16CDE8190C60}|Proyecto-1.csproj|solutionrelative:dtos\\createunitdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A1EDF617-3599-42EC-9364-16CDE8190C60}|Proyecto-1.csproj|c:\\users\\uriel\\onedrive\\desktop\\prueba-euro\\proyecto-1\\controllers\\ownercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A1EDF617-3599-42EC-9364-16CDE8190C60}|Proyecto-1.csproj|solutionrelative:controllers\\ownercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,84 +14,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\uriel\\OneDrive\\Desktop\\Prueba-Euro\\Proyecto-1\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\uriel\\OneDrive\\Desktop\\Prueba-Euro\\Proyecto-1\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAACIAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-18T21:04:32.924Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "UnitService.cs",
-              "DocumentMoniker": "C:\\Users\\uriel\\OneDrive\\Desktop\\Prueba-Euro\\Proyecto-1\\Services\\UnitService.cs",
-              "RelativeDocumentMoniker": "Services\\UnitService.cs",
-              "ToolTip": "C:\\Users\\uriel\\OneDrive\\Desktop\\Prueba-Euro\\Proyecto-1\\Services\\UnitService.cs",
-              "RelativeToolTip": "Services\\UnitService.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAowC8AAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-18T20:40:53.157Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "CreateUnitDTO.cs",
-              "DocumentMoniker": "C:\\Users\\uriel\\OneDrive\\Desktop\\Prueba-Euro\\Proyecto-1\\DTOs\\CreateUnitDTO.cs",
-              "RelativeDocumentMoniker": "DTOs\\CreateUnitDTO.cs",
-              "ToolTip": "C:\\Users\\uriel\\OneDrive\\Desktop\\Prueba-Euro\\Proyecto-1\\DTOs\\CreateUnitDTO.cs",
-              "RelativeToolTip": "DTOs\\CreateUnitDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-18T20:40:30.27Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "UnitDTO.cs",
-              "DocumentMoniker": "C:\\Users\\uriel\\OneDrive\\Desktop\\Prueba-Euro\\Proyecto-1\\DTOs\\UnitDTO.cs",
-              "RelativeDocumentMoniker": "DTOs\\UnitDTO.cs",
-              "ToolTip": "C:\\Users\\uriel\\OneDrive\\Desktop\\Prueba-Euro\\Proyecto-1\\DTOs\\UnitDTO.cs",
-              "RelativeToolTip": "DTOs\\UnitDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-18T20:40:23.398Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "OwnerController.cs",
-              "DocumentMoniker": "C:\\Users\\uriel\\OneDrive\\Desktop\\Prueba-Euro\\Proyecto-1\\Controllers\\OwnerController.cs",
-              "RelativeDocumentMoniker": "Controllers\\OwnerController.cs",
-              "ToolTip": "C:\\Users\\uriel\\OneDrive\\Desktop\\Prueba-Euro\\Proyecto-1\\Controllers\\OwnerController.cs",
-              "RelativeToolTip": "Controllers\\OwnerController.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-18T20:27:54.013Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "OwnerService.cs",
-              "DocumentMoniker": "C:\\Users\\uriel\\OneDrive\\Desktop\\Prueba-Euro\\Proyecto-1\\Services\\OwnerService.cs",
-              "RelativeDocumentMoniker": "Services\\OwnerService.cs",
-              "ToolTip": "C:\\Users\\uriel\\OneDrive\\Desktop\\Prueba-Euro\\Proyecto-1\\Services\\OwnerService.cs",
-              "RelativeToolTip": "Services\\OwnerService.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAowDYAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-18T20:24:50.491Z",
+              "WhenOpened": "2025-06-18T23:44:01.89Z",
               "EditorCaption": ""
             }
           ]

@@ -9,8 +9,8 @@
 1. Abrir la solución en Visual Studio 2022.
 2. Restaurar los paquetes NuGet `dotnet restore` o desde Visual Studio.
 3. Si es necesario, editar archivo appsettings.json para configurar la cadena de conexión a la base de datos. (Por defecto, utiliza una base de datos LocalDB).
-4. Ejecutar migración de la base de datos `dotnet ef database update`.
-5. Ejecutar el proyecto `dotnet run` o desde Visual Studio.
+4. Ejecutar `dotnet ef migrations add InitialCreate` para crear migración inicial de la bd.
+5. Aplicar migración de la base de datos `dotnet ef database update`.
 6. Para rellenar la base datos, pegar las siguientes sentencias SQL en el explorador de objetos de SQL Server en la base de datos UnitsDb:
 ```sql
 INSERT INTO Units (Number, Address, Orientation, Bedrooms, Bathrooms, Model, RentPrice, CommonExpense)
@@ -68,6 +68,8 @@ VALUES
 (14, 14, 100),
 (15, 15, 100);
 ```
+
+7. Ejecutar el proyecto `dotnet run` o desde Visual Studio.
 
 ## Proyecto-2 (Frontend):
 1. Abrir la carpeta Proyecto-2 en Visual Studio Code o cualquier otro.

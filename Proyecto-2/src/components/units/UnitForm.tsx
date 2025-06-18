@@ -23,7 +23,6 @@ export default function UnitForm({ setModalOpen }: Props) {
         handleSubmit,
         setValue,
         formState: { errors, isSubmitting, },
-        reset
     } = useForm<CreateUnitForm>({
         resolver: zodResolver(createUnitSchema),
         defaultValues: {
@@ -37,8 +36,7 @@ export default function UnitForm({ setModalOpen }: Props) {
     const onSubmit = async (data: CreateUnitForm) => {
         try {
             await createUnitAction(data);
-            setModalOpen?.(false);
-            reset();
+            window.location.reload();
         } catch (error) {
             if (isAxiosError(error)) {
                 setError(error.response?.data ?? "Error desconocido");
@@ -161,7 +159,7 @@ export default function UnitForm({ setModalOpen }: Props) {
                 }
 
                 <div className="flex justify-end space-x-4 pt-4">
-                    <Button type="button" variant="outline">
+                    <Button type="button" variant="outline" onClick={() => setModalOpen?.(false)}>
                         Cancelar
                     </Button>
                     <Button type="submit" disabled={isSubmitting}>

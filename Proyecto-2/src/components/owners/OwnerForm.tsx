@@ -48,6 +48,7 @@ export default function OwnerForm({ setModalOpen }: Props) {
     const onSubmit = async (data: CreateOwnerForm) => {
         try {
             await createOwnerAction(data);
+            window.location.reload();
         } catch (error) {
             console.log(error);
             if (isAxiosError(error)) {
