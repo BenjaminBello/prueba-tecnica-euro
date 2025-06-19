@@ -18,7 +18,7 @@ export const UnitsByOwnerList = ({ unitsByOwnerPromise }: Props) => {
                         ))}
                     </ul>
                 ) : (
-                    <p>No hay propietarios para esta unidad.</p>
+                    <p>No hay unidades para este propietario.</p>
                 )
             }
         </div>
