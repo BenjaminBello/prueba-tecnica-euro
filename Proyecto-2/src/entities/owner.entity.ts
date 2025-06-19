@@ -20,7 +20,7 @@ export const createOwnerSchema = z.object({
 export const ownerSchema = z.object({
     id: z.coerce.number(),
     name: z.string().min(1, "El nombre es requerido"),
-    rut: z.string().length(12, "El RUT debe tener exactamente 12 caracteres"),
+    rut: z.string(),
     email: z.string().email("Debe ser un email válido"),
     birthDate: z.coerce.date({
         errorMap: () => ({ message: "Debe ser una fecha válida" }),
