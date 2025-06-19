@@ -4,6 +4,7 @@
 1. Clonar el repositorio
 2. La carpeta Proyecto-1 corresponde al backend realizado con .NET 8.
 3. La carpeta Proyecto-2 corresponde al frontend realizado con React.
+4. Link video demostración: [https://drive.google.com/file/d/17YxUcszGPQ0_kB80tQ4M1A7GmIeTle7R/view?usp=sharing](https://drive.google.com/file/d/17YxUcszGPQ0_kB80tQ4M1A7GmIeTle7R/view?usp=sharing)
 
 ## Proyecto-1 (Backend):
 1. Abrir la solución en Visual Studio 2022.
